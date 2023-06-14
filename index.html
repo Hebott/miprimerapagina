@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primer Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container-nav">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" class="brand">Mi página web</a>
+        <ul class="nav-links">
+          <li class="home"><a href="mi-primer-website.html">Home</a></li>
+          <li class="about"><a href="about.html">About</a></li>
+          <li class="services"><a href="services.html">Services</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menu</button>
+  </header>
+  <main class="container">
+    <h1>Bienvenidos a mi primer Website</h1>
+    <div class="row">
+      <div class="column">
+        <section>
+          <h2>Presentación</h2>
+          <p>Soy Héctor, ¡y esta es mi primera página web!</p>
+          <p>Estoy aprendiendo desarrollo web para crear sitios web 
+            visualmente atrapantes y funcionales.</p>
+        </section>
+      </div>
+      <div class="column">
+        <section>
+          <h2>Lo que se viene...</h2>
+          <p>
+            A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. 
+            Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.
+          </p>
+        </section>
+      </div>
+    </div>
+    <div class="video-container">
+      <video src="Vaciado de concreto.mp4" controls></video>
+    </div>
+  </main>
+  <footer>
+    <div class="column">
+      <h3>Formulario de Consulta</h3>
+      <form id="myForm">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+    <script src="script.js"></script>
+  </footer>
+</body>
+</html>
